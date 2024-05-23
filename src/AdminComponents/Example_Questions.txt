@@ -1,0 +1,719 @@
+What is the capital of France?
+a. Paris
+b. London
+c. Berlin
+d. Madrid
+answer = Paris
+type = easy
+
+Which planet is known as the Red Planet?
+a. Venus
+b. Jupiter
+c. Mars
+d. Saturn
+answer = Mars
+type = easy
+
+What is the chemical symbol for water?
+a. H2O
+b. CO2
+c. O2
+d. NaCl
+answer = H2O
+type = easy
+
+Who wrote the play "Romeo and Juliet"?
+a. Charles Dickens
+b. William Shakespeare
+c. Jane Austen
+d. Leo Tolstoy
+answer = William Shakespeare
+type = easy
+
+Which country is famous for the Great Wall?
+a. Japan
+b. China
+c. India
+d. Italy
+answer = China
+type = easy
+
+What is the largest mammal in the world?
+a. Elephant
+b. Giraffe
+c. Blue Whale
+d. Tiger
+answer = Blue Whale
+type = easy
+
+Who is the author of "To Kill a Mockingbird"?
+a. J.K. Rowling
+b. George Orwell
+c. Harper Lee
+d. F. Scott Fitzgerald
+answer = Harper Lee
+type = easy
+
+Which gas do plants absorb from the atmosphere?
+a. Carbon dioxide (CO2)
+b. Oxygen (O2)
+c. Nitrogen (N2)
+d. Hydrogen (H2)
+answer = Carbon dioxide (CO2)
+type = easy
+
+What is the smallest prime number?
+a. 0
+b. 1
+c. 2
+d. 3
+answer = 2
+type = easy
+
+In which year did the Titanic sink?
+a. 1907
+b. 1912
+c. 1920
+d. 1935
+answer = 1912
+type = easy
+
+Who is known as the "Father of Modern Physics"?
+a. Isaac Newton
+b. Albert Einstein
+c. Galileo Galilei
+d. Stephen Hawking
+answer = Albert Einstein
+type = easy
+
+Which gas makes up the majority of Earth's atmosphere?
+a. Oxygen (O2)
+b. Carbon dioxide (CO2)
+c. Nitrogen (N2)
+d. Hydrogen (H2)
+answer = Nitrogen (N2)
+type = easy
+
+What is the largest planet in our solar system?
+a. Earth
+b. Mars
+c. Jupiter
+d. Saturn
+answer = Jupiter
+type = easy
+
+Who painted the Mona Lisa?
+a. Vincent van Gogh
+b. Pablo Picasso
+c. Leonardo da Vinci
+d. Michelangelo
+answer = Leonardo da Vinci
+type = easy
+
+What is the national flower of Japan?
+a. Rose
+b. Tulip
+c. Cherry Blossom
+d. Sunflower
+answer = Cherry Blossom
+type = easy
+
+What is the chemical symbol for gold?
+a. Gd
+b. Go
+c. Au
+d. Ag
+answer = Au
+type = easy
+
+Who is the author of "Pride and Prejudice"?
+a. Charles Dickens
+b. Jane Austen
+c. Emily Brontë
+d. Leo Tolstoy
+answer = Jane Austen
+type = easy
+
+What is the largest ocean in the world?
+a. Atlantic Ocean
+b. Indian Ocean
+c. Arctic Ocean
+d. Pacific Ocean
+answer = Pacific Ocean
+type = easy
+
+Which gas is responsible for the green color of plants?
+a. Oxygen (O2)
+b. Carbon dioxide (CO2)
+c. Nitrogen (N2)
+d. Chlorophyll
+answer = Chlorophyll
+type = easy
+
+Who is credited with the discovery of the theory of relativity?
+a. Isaac Newton
+b. Albert Einstein
+c. Galileo Galilei
+d. Stephen Hawking
+answer = Albert Einstein
+type = easy
+
+What is the largest desert in the world?
+a. Sahara Desert
+b. Gobi Desert
+c. Atacama Desert
+d. Antarctic Desert
+answer = Sahara Desert
+type = easy
+
+Which planet is often referred to as the "Morning Star" or "Evening Star"?
+a. Venus
+b. Mars
+c. Jupiter
+d. Saturn
+answer = Venus
+type = easy
+
+Who painted the "Starry Night" masterpiece?
+a. Vincent van Gogh
+b. Pablo Picasso
+c. Leonardo da Vinci
+d. Michelangelo
+answer = Vincent van Gogh
+type = easy
+
+What is the chemical symbol for silver?
+a. Si
+b. Ag
+c. Sr
+d. Sn
+answer = Ag
+type = easy
+
+In which year did Christopher Columbus first arrive in the Americas?
+a. 1402
+b. 1492
+c. 1532
+d. 1620
+answer = 1492
+type = easy
+
+Which gas is used by divers to breathe underwater at depths?
+a. Oxygen (O2)
+b. Carbon dioxide (CO2)
+c. Helium (He)
+d. Nitrogen (N2)
+answer = Helium (He)
+type = easy
+
+Who wrote the famous novel "1984"?
+a. George Orwell
+b. Aldous Huxley
+c. Ray Bradbury
+d. J.K. Rowling
+answer = George Orwell
+type = easy
+
+Which gas is known as "Laughing Gas"?
+a. Oxygen (O2)
+b. Carbon dioxide (CO2)
+c. Nitrous oxide (N2O)
+d. Hydrogen (H2)
+answer = Nitrous oxide (N2O)
+type = easy
+
+What is the largest moon of Saturn?
+a. Europa
+b. Titan
+c. Io
+d. Enceladus
+answer = Titan
+type = easy
+
+Who is known for the theory of natural selection in the context of evolution?
+a. Charles Darwin
+b. Alfred Russel Wallace
+c. Gregor Mendel
+d. Thomas Malthus
+answer = Charles Darwin
+type = easy
+
+What is the boiling point of water at standard atmospheric pressure?
+a. 100 degrees Celsius
+b. 0 degrees Celsius
+c. 212 degrees Fahrenheit
+d. 273.15 Kelvin
+answer = 100 degrees Celsius
+type = medium
+
+In which year did World War II end?
+a. 1939
+b. 1945
+c. 1950
+d. 1960
+answer = 1945
+type = medium
+
+Who is the author of the novel "Moby-Dick"?
+a. Herman Melville
+b. Mark Twain
+c. Charles Dickens
+d. Leo Tolstoy
+answer = Herman Melville
+type = medium
+
+What is the chemical symbol for the element iron?
+a. Fe
+b. Ir
+c. In
+d. Io
+answer = Fe
+type = medium
+
+Who is the current Prime Minister of the United Kingdom?
+a. Boris Johnson
+b. Theresa May
+c. David Cameron
+d. Tony Blair
+answer = Boris Johnson
+type = medium
+
+What is the largest planet in our solar system?
+a. Neptune
+b. Saturn
+c. Jupiter
+d. Uranus
+answer = Jupiter
+type = medium
+
+Who is the Greek god of the sea?
+a. Zeus
+b. Apollo
+c. Poseidon
+d. Hermes
+answer = Poseidon
+type = medium
+
+What is the national flower of India?
+a. Lotus
+b. Rose
+c. Sunflower
+d. Jasmine
+answer = Lotus
+type = medium
+
+Which gas is produced by plants during photosynthesis?
+a. Oxygen
+b. Carbon dioxide
+c. Nitrogen
+d. Hydrogen
+answer = Oxygen
+type = medium
+
+Who is the famous scientist known for his theory of general relativity?
+a. Sir Isaac Newton
+b. Galileo Galilei
+c. Albert Einstein
+d. Stephen Hawking
+answer = Albert Einstein
+type = medium
+
+What is the largest desert in Africa?
+a. Sahara Desert
+b. Kalahari Desert
+c. Gobi Desert
+d. Atacama Desert
+answer = Sahara Desert
+type = medium
+
+Who wrote the play "Hamlet"?
+a. William Shakespeare
+b. Charles Dickens
+c. Jane Austen
+d. Leo Tolstoy
+answer = William Shakespeare
+type = medium
+
+Which planet is known as the "Evening Star"?
+a. Venus
+b. Mars
+c. Jupiter
+d. Saturn
+answer = Venus
+type = medium
+
+What is the currency of Japan?
+a. Yen
+b. Dollar
+c. Euro
+d. Pound
+answer = Yen
+type = medium
+
+Who is the first woman to fly solo across the Atlantic Ocean?
+a. Amelia Earhart
+b. Bessie Coleman
+c. Harriet Quimby
+d. Jacqueline Cochran
+answer = Amelia Earhart
+type = medium
+
+In which year did the American Civil War begin?
+a. 1850
+b. 1861
+c. 1870
+d. 1885
+answer = 1861
+type = medium
+
+What is the chemical symbol for lead?
+a. Ld
+b. Pb
+c. Le
+d. Pd
+answer = Pb
+type = medium
+
+Who is the author of "The Catcher in the Rye"?
+a. J.D. Salinger
+b. F. Scott Fitzgerald
+c. Ernest Hemingway
+d. Mark Twain
+answer = J.D. Salinger
+type = medium
+
+What is the largest bird in the world?
+a. Eagle
+b. Ostrich
+c. Albatross
+d. Condor
+answer = Ostrich
+type = medium
+
+Who is the 44th President of the United States?
+a. George W. Bush
+b. Bill Clinton
+c. Barack Obama
+d. George H.W. Bush
+answer = Barack Obama
+type = medium
+
+What is the smallest planet in our solar system?
+a. Mercury
+b. Venus
+c. Earth
+d. Mars
+answer = Mercury
+type = medium
+
+Who is the author of "The Great Gatsby"?
+a. Ernest Hemingway
+b. F. Scott Fitzgerald
+c. Mark Twain
+d. John Steinbeck
+answer = F. Scott Fitzgerald
+type = medium
+
+What is the chemical symbol for potassium?
+a. K
+b. Po
+c. Pt
+d. P
+answer = K
+type = medium
+
+Who is the founder of Microsoft Corporation?
+a. Steve Jobs
+b. Bill Gates
+c. Mark Zuckerberg
+d. Larry Page
+answer = Bill Gates
+type = medium
+
+In which country is the famous city of Venice located?
+a. Italy
+b. Spain
+c. Greece
+d. France
+answer = Italy
+type = medium
+
+What is the largest species of shark?
+a. Great White Shark
+b. Hammerhead Shark
+c. Whale Shark
+d. Tiger Shark
+answer = Whale Shark
+type = medium
+
+Who is the author of "The Adventures of Huckleberry Finn"?
+a. F. Scott Fitzgerald
+b. Mark Twain
+c. Charles Dickens
+d. Jane Austen
+answer = Mark Twain
+type = medium
+
+What is the chemical symbol for copper?
+a. Co
+b. Cu
+c. Cr
+d. Cl
+answer = Cu
+type = medium
+
+Which gas do humans exhale when they breathe out?
+a. Carbon dioxide (CO2)
+b. Oxygen (O2)
+c. Nitrogen (N2)
+d. Hydrogen (H2)
+answer = Carbon dioxide (CO2)
+type = medium
+
+Who is the first woman to win a Nobel Prize?
+a. Marie Curie
+b. Amelia Earhart
+c. Rosalind Franklin
+d. Florence Nightingale
+answer = Marie Curie
+type = medium
+
+What is the largest organ in the human body?
+a. Liver
+b. Brain
+c. Skin
+d. Heart
+answer = Skin
+type = hard
+
+Which chemical element has the highest melting point?
+a. Iron
+b. Tungsten
+c. Gold
+d. Platinum
+answer = Tungsten
+type = hard
+
+Who is the author of the epic poem "Paradise Lost"?
+a. Geoffrey Chaucer
+b. John Milton
+c. William Shakespeare
+d. Homer
+answer = John Milton
+type = hard
+
+What is the rarest blood type among humans?
+a. A+
+b. B-
+c. AB-
+d. O-
+answer = AB-
+type = hard
+
+In physics, what is the fundamental force that holds the nucleus of an atom together?
+a. Electromagnetic force
+b. Weak nuclear force
+c. Gravitational force
+d. Strong nuclear force
+answer = Strong nuclear force
+type = hard
+
+Who was the first person to travel into space?
+a. Yuri Gagarin
+b. John Glenn
+c. Alan Shepard
+d. Valentina Tereshkova
+answer = Yuri Gagarin
+type = hard
+
+What is the chemical formula for ozone?
+a. O2
+b. CO2
+c. H2O
+d. O3
+answer = O3
+type = hard
+
+Which ancient wonder of the world was a colossal statue of the Greek sun god Helios?
+a. Great Pyramid of Giza
+b. Hanging Gardens of Babylon
+c. Colossus of Rhodes
+d. Lighthouse of Alexandria
+answer = Colossus of Rhodes
+type = hard
+
+What is the largest species of penguin in the world?
+a. Emperor Penguin
+b. King Penguin
+c. Adélie Penguin
+d. Chinstrap Penguin
+answer = Emperor Penguin
+type = hard
+
+Who is the author of the novel "War and Peace"?
+a. Leo Tolstoy
+b. Fyodor Dostoevsky
+c. Anton Chekhov
+d. Vladimir Nabokov
+answer = Leo Tolstoy
+type = hard
+
+What is the chemical element with the atomic number 92?
+a. Uranium
+b. Neptunium
+c. Plutonium
+d. Americium
+answer = Uranium
+type = hard
+
+In which year did the Chernobyl nuclear disaster occur?
+a. 1986
+b. 1979
+c. 1991
+d. 2001
+answer = 1986
+type = hard
+
+Who is the famous Italian artist known for painting the Sistine Chapel ceiling?
+a. Leonardo da Vinci
+b. Michelangelo
+c. Raphael
+d. Donatello
+answer = Michelangelo
+type = hard
+
+What is the rarest naturally occurring element on Earth?
+a. Technetium
+b. Francium
+c. Astatine
+d. Einsteinium
+answer = Astatine
+type = hard
+
+Which gas is responsible for the Earth's ozone layer in the stratosphere?
+a. Oxygen (O2)
+b. Nitrogen (N2)
+c. Chlorofluorocarbons (CFCs)
+d. Ozone (O3)
+answer = Ozone (O3)
+type = hard
+
+What is the formula for Albert Einstein's mass-energy equivalence equation?
+a. E=mc²
+b. F=ma
+c. H²O
+d. 2+2=4
+answer = E=mc²
+type = hard
+
+Who is the author of the novel "Crime and Punishment"?
+a. Leo Tolstoy
+b. Fyodor Dostoevsky
+c. Anton Chekhov
+d. Ivan Turgenev
+answer = Fyodor Dostoevsky
+type = hard
+
+Which planet has the highest average surface temperature in our solar system?
+a. Venus
+b. Mercury
+c. Mars
+d. Earth
+answer = Venus
+type = hard
+
+What is the chemical symbol for the element silver?
+a. Ag
+b. Si
+c. Sr
+d. Sn
+answer = Ag
+type = hard
+
+Who was the first woman to fly solo across the Atlantic Ocean nonstop?
+a. Amelia Earhart
+b. Bessie Coleman
+c. Harriet Quimby
+d. Jacqueline Cochran
+answer = Amelia Earhart
+type = hard
+
+In which year was the Declaration of Independence of the United States adopted?
+a. 1776
+b. 1789
+c. 1801
+d. 1812
+answer = 1776
+type = hard
+
+What is the chemical element with the atomic number 79?
+a. Gold
+b. Silver
+c. Platinum
+d. Copper
+answer = Gold
+type = hard
+
+Who is the author of the novel "One Hundred Years of Solitude"?
+a. Gabriel García Márquez
+b. Pablo Neruda
+c. Jorge Luis Borges
+d. Mario Vargas Llosa
+answer = Gabriel García Márquez
+type = hard
+
+What is the largest known moon in the solar system?
+a. Titan
+b. Ganymede
+c. Europa
+d. Io
+answer = Ganymede
+type = hard
+
+In which country was the philosopher Confucius born?
+a. China
+b. India
+c. Greece
+d. Egypt
+answer = China
+type = hard
+
+What is the chemical symbol for the element uranium?
+a. U
+b. Un
+c. Ur
+d. Um
+answer = U
+type = hard
+
+Who is the first woman to win a Nobel Prize and also the first person to win Nobel Prizes in two different scientific fields?
+a. Marie Curie
+b. Dorothy Crowfoot Hodgkin
+c. Gerty Cori
+d. Rosalind Franklin
+answer = Marie Curie
+type = hard
+
+In which city is the famous painting "Mona Lisa" displayed?
+a. Paris
+b. Rome
+c. Florence
+d. London
+answer = Paris
+type = hard
+
+Who is the Greek philosopher known for his contributions to ethics and virtue theory?
+a. Plato
+b. Aristotle
+c. Socrates
+d. Pythagoras
+answer = Aristotle
+type = hard
+
+What is the chemical symbol for the element radon?
+a. Ra
+b. Rd
+c. Rn
+d. Ro
+answer = Rn
+type = hard

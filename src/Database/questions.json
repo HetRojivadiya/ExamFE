@@ -1,0 +1,332 @@
+[
+    {
+      "question": "What does CSS stand for?",
+      "options": ["Colorful Style Sheets", "Cascading Style Sheets", "Computer Style Sheets", "Creative Style Sheets"],
+      "answer": 1,
+      "type": "easy"
+    },
+    {
+      "question": "Which programming language is known as the 'mother of all languages'?",
+      "options": ["C", "Java", "Python", "Assembly"],
+      "answer": 0,
+      "type": "medium"
+    },
+    {
+      "question": "What is the result of 5 + '5' in JavaScript?",
+      "options": ["10", "55", "Error", "15"],
+      "answer": 1,
+      "type": "hard"
+    },
+    {
+      "question": "Which data structure uses the Last-In-First-Out (LIFO) principle?",
+      "options": ["Queue", "Stack", "Heap", "Linked List"],
+      "answer": 1,
+      "type": "easy"
+    },
+    {
+      "question": "Which of the following is a version control system?",
+      "options": ["Git", "Java", "HTML", "Python"],
+      "answer": 0,
+      "type": "medium"
+    },
+    {
+      "question": "What is the primary purpose of a 'for' loop in programming?",
+      "options": ["To define a function", "To declare a variable", "To iterate over a sequence of values", "To print text to the console"],
+      "answer": 2,
+      "type": "medium"
+    },
+    {
+      "question": "In Python, which data type is used to store a sequence of values that are ordered and changeable?",
+      "options": ["int", "list", "str", "tuple"],
+      "answer": 1,
+      "type": "easy"
+    },
+    {
+      "question": "What does the 'if' statement do in programming?",
+      "options": ["It repeats a block of code a specified number of times.", "It defines a function.", "It checks a condition and executes code if the condition is true.", "It creates a comment in the code."],
+      "answer": 2,
+      "type": "medium"
+    },
+    {
+      "question": "Which programming language is often used for web development and is known for its simplicity and readability?",
+      "options": ["C++", "JavaScript", "Python", "Java"],
+      "answer": 2,
+      "type": "easy"
+    },
+    {
+      "question": "What is the purpose of a 'try...except' block in programming?",
+      "options": ["To define a loop", "To declare a variable", "To catch and handle exceptions or errors", "To print debugging information"],
+      "answer": 2,
+      "type": "medium"
+    },
+    {
+      "question": "In object-oriented programming, what is the term for a blueprint for creating objects?",
+      "options": ["Class", "Method", "Variable", "Function"],
+      "answer": 0,
+      "type": "easy"
+    },
+    {
+      "question": "What is the result of '3' + '2' in most programming languages?",
+      "options": ["32", "5", "Error", "6"],
+      "answer": 0,
+      "type": "medium"
+    },
+    {
+      "question": "Which data structure uses a key-value pair to store data?",
+      "options": ["List", "Array", "Dictionary", "Set"],
+      "answer": 2,
+      "type": "easy"
+    },
+    {
+      "question": "What is the term for a variable that can be accessed and modified from any part of a program?",
+      "options": ["Global variable", "Local variable", "Constant variable", "Static variable"],
+      "answer": 0,
+      "type": "medium"
+    },
+    {
+      "question": "Which of the following is NOT a valid programming language?",
+      "options": ["Java", "C#", "HTML", "Ruby"],
+      "answer": 2,
+      "type": "easy"
+    },    {
+      "question": "What is the primary purpose of a 'while' loop in programming?",
+      "options": ["To define a function", "To declare a variable", "To execute a block of code repeatedly as long as a condition is true", "To print text to the console"],
+      "answer": 2,
+      "type": "medium"
+    },
+    {
+      "question": "In object-oriented programming, what is an 'instance' of a class?",
+      "options": ["A class definition", "A method", "A variable", "A specific object created from that class"],
+      "answer": 3,
+      "type": "easy"
+    },
+    {
+      "question": "What does the acronym 'SQL' stand for?",
+      "options": ["Structured Query Language", "Sequential Query Logic", "Standard Query Language", "System Query Language"],
+      "answer": 0,
+      "type": "medium"
+    },
+    {
+      "question": "Which programming language is often used for developing Android mobile applications?",
+      "options": ["Java", "Python", "C++", "JavaScript"],
+      "answer": 0,
+      "type": "easy"
+    },
+    {
+      "question": "What is the purpose of the 'break' statement in programming?",
+      "options": ["To define a new function", "To exit a loop prematurely", "To declare a variable", "To print a message to the console"],
+      "answer": 1,
+      "type": "medium"
+    },
+    {
+      "question": "In Python, what is the result of 2 ** 3?",
+      "options": ["6", "8", "9", "16"],
+      "answer": 3,
+      "type": "easy"
+    },
+    {
+      "question": "Which of the following is NOT a programming paradigm?",
+      "options": ["Object-Oriented Programming (OOP)", "Functional Programming (FP)", "Procedural Programming", "Logical Programming"],
+      "answer": 2,
+      "type": "medium"
+    },
+    {
+      "question": "What is the purpose of a 'function' in programming?",
+      "options": ["To define a class", "To declare a variable", "To encapsulate a block of code for reuse", "To print debugging information"],
+      "answer": 2,
+      "type": "easy"
+    },
+    {
+      "question": "Which symbol is used for single-line comments in most programming languages?",
+      "options": ["//", "/*", "--", "##"],
+      "answer": 0,
+      "type": "medium"
+    },
+    {
+      "question": "What is the term for a variable that cannot be changed once it is assigned a value?",
+      "options": ["Mutable variable", "Immutable variable", "Global variable", "Local variable"],
+      "answer": 1,
+      "type": "easy"
+    },
+
+      {
+        "question": "In computer science, what does the acronym 'TCP' stand for?",
+        "options": ["Transmission Control Protocol", "Total Control Process", "Time-Critical Processing", "Transfer Command Protocol"],
+        "answer": 0,
+        "type": "hard"
+      },
+      {
+        "question": "What is the time complexity of a binary search algorithm when searching in a sorted array?",
+        "options": ["O(1)", "O(n)", "O(log n)", "O(n^2)"],
+        "answer": 2,
+        "type": "hard"
+      },
+      {
+        "question": "In object-oriented programming, what is 'polymorphism'?",
+        "options": ["The ability of an object to take on multiple forms", "A programming language syntax error", "A way to declare multiple variables with the same name", "A type of sorting algorithm"],
+        "answer": 0,
+        "type": "hard"
+      },
+      {
+        "question": "What is the Big O notation for the worst-case time complexity of a quicksort algorithm?",
+        "options": ["O(1)", "O(n)", "O(log n)", "O(n^2)"],
+        "answer": 3,
+        "type": "hard"
+      },
+      {
+        "question": "What is the purpose of 'bitwise operators' in programming?",
+        "options": ["To perform operations on individual bits of binary data", "To manipulate text data", "To convert numbers to strings", "To calculate square roots"],
+        "answer": 0,
+        "type": "hard"
+      },
+      {
+        "question": "What does 'ACID' stand for in the context of database transactions?",
+        "options": ["Atomicity, Consistency, Isolation, Durability", "All Computers In Danger", "Automatic Control of Information Data", "Advanced Computing for Information Delivery"],
+        "answer": 0,
+        "type": "hard"
+      },
+      {
+        "question": "What is the concept of 'recursion' in programming?",
+        "options": ["A way to organize code into functions", "A loop that repeats a block of code", "A function that calls itself", "A method to handle exceptions"],
+        "answer": 2,
+        "type": "hard"
+      },
+      {
+        "question": "Which sorting algorithm has a time complexity of O(n log n) in the average and worst cases?",
+        "options": ["Bubble Sort", "Insertion Sort", "Quick Sort", "Selection Sort"],
+        "answer": 2,
+        "type": "hard"
+      },
+      {
+        "question": "In computer science, what is a 'hash table' used for?",
+        "options": ["Storing sorted data", "Searching for text in documents", "Efficiently looking up data using keys", "Generating random numbers"],
+        "answer": 2,
+        "type": "hard"
+      },
+      {
+        "question": "What is the purpose of the 'volatile' keyword in some programming languages like Java?",
+        "options": ["To declare a variable as constant", "To indicate that a variable can be accessed from any part of the program", "To specify that a variable may be modified by multiple threads", "To indicate that a variable should be ignored by the compiler"],
+        "answer": 2,
+        "type": "hard"
+      },
+      {
+        "question": "What is the purpose of the 'else' statement in programming?",
+        "options": ["To define a loop", "To handle exceptions", "To execute code when a condition is false", "To declare a variable"],
+        "answer": 2,
+        "type": "medium"
+      },
+      {
+        "question": "In JavaScript, what does the 'typeof' operator return for an undefined variable?",
+        "options": ["'undefined'", "'null'", "'object'", "'string'"],
+        "answer": 0,
+        "type": "medium"
+      },
+      {
+        "question": "What is the primary purpose of a 'switch' statement in programming?",
+        "options": ["To declare a variable", "To define a function", "To execute different code blocks based on the value of an expression", "To print text to the console"],
+        "answer": 2,
+        "type": "medium"
+      },
+      {
+        "question": "In programming, what does the acronym 'API' stand for?",
+        "options": ["Application Programming Interface", "Advanced Programming Instruction", "Application Process Integration", "Automated Program Interface"],
+        "answer": 0,
+        "type": "medium"
+      },
+      {
+        "question": "Which programming language is often used for scientific computing and data analysis?",
+        "options": ["Ruby", "Perl", "R", "Swift"],
+        "answer": 2,
+        "type": "medium"
+      },
+      {
+        "question": "What is 'scope' in programming?",
+        "options": ["A type of error message", "The region of code where a variable can be accessed", "A data type", "A mathematical function"],
+        "answer": 1,
+        "type": "medium"
+      },
+      {
+        "question": "In Python, what is the purpose of the 'elif' keyword?",
+        "options": ["To end a loop", "To define a class", "To specify an alternative condition in an 'if' statement", "To print debugging information"],
+        "answer": 2,
+        "type": "medium"
+      },
+      {
+        "question": "What is 'debugging' in programming?",
+        "options": ["A type of data structure", "The process of finding and fixing errors or bugs in code", "A programming language", "A sorting algorithm"],
+        "answer": 1,
+        "type": "medium"
+      },
+      {
+        "question": "What does 'Django' refer to in the context of web development?",
+        "options": ["A JavaScript library", "A Python web framework", "A type of database", "A version control system"],
+        "answer": 1,
+        "type": "medium"
+      },
+      {
+        "question": "What is 'abstraction' in object-oriented programming?",
+        "options": ["A way to define variables", "A technique to create complex data structures", "The process of simplifying complex systems by breaking them into smaller, manageable parts", "A programming language"],
+        "answer": 2,
+        "type": "medium"
+      },
+      {
+        "question": "What does HTML stand for?",
+        "options": ["Hypertext Markup Language", "Hyperlink and Text Markup Language", "Highly Technical Markup Language", "Hypertext Transfer Language"],
+        "answer": 0,
+        "type": "easy"
+      },
+      {
+        "question": "Which symbol is used for assignment in many programming languages?",
+        "options": ["+", "=", ":", "&"],
+        "answer": 1,
+        "type": "easy"
+      },
+      {
+        "question": "In programming, what is a 'variable'?",
+        "options": ["A mathematical operation", "A statement that displays a message", "A container for storing data", "A type of loop"],
+        "answer": 2,
+        "type": "easy"
+      },
+      {
+        "question": "What is the result of 10 / 2 in most programming languages?",
+        "options": ["5", "10", "2.5", "0.5"],
+        "answer": 0,
+        "type": "easy"
+      },
+      {
+        "question": "Which data type is used to store whole numbers in programming?",
+        "options": ["float", "string", "integer", "boolean"],
+        "answer": 2,
+        "type": "easy"
+      },
+      {
+        "question": "In programming, what is 'syntax'?",
+        "options": ["A type of data structure", "The rules that dictate the combination of symbols and keywords in code", "A programming language", "A sorting algorithm"],
+        "answer": 1,
+        "type": "easy"
+      },
+      {
+        "question": "What is the purpose of the 'print' statement in many programming languages?",
+        "options": ["To define a function", "To declare a variable", "To display text or values on the screen", "To perform mathematical calculations"],
+        "answer": 2,
+        "type": "easy"
+      },
+      {
+        "question": "Which programming language is often used for creating dynamic web pages?",
+        "options": ["Java", "C#", "Python", "JavaScript"],
+        "answer": 3,
+        "type": "easy"
+      },
+      {
+        "question": "What is the term for a program that finds and removes errors in code?",
+        "options": ["Compiler", "Debugger", "Interpreter", "Validator"],
+        "answer": 1,
+        "type": "easy"
+      },
+      {
+        "question": "What is the primary purpose of a 'comment' in code?",
+        "options": ["To declare a variable", "To display output to the user", "To explain or annotate code for developers", "To create a loop"],
+        "answer": 2,
+        "type": "easy"
+      }
+]

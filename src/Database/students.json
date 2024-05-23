@@ -1,0 +1,147 @@
+[
+    {
+      "enrollment": "92100103227",
+      "firstName": "Sarah",
+      "lastName": "Brown",
+      "email": "sarah.brown@example.com",
+      "password": "sarah123",
+      "oneMark": 20,
+      "mobile": "7778889999",
+      "stream": "B.tech Chemical Engineering",
+      "GRno": "114527",
+      "status": "Attended"
+    },
+    {
+      "enrollment": "92100103228",
+      "firstName": "David",
+      "lastName": "Lee",
+      "email": "david.lee@example.com",
+      "password": "david456",
+      "oneMark": 0,
+      "mobile": "6665554444",
+      "stream": "B.tech Biomedical Engineering",
+      "GRno": "114528",
+      "status": "NaN"
+    },
+    {
+      "enrollment": "92100103229",
+      "firstName": "Olivia",
+      "lastName": "Miller",
+      "email": "olivia.miller@example.com",
+      "password": "olivia567",
+      "oneMark": 28,
+      "mobile": "1112223333",
+      "stream": "B.tech Aerospace Engineering",
+      "GRno": "114529",
+      "status": "Attended"
+    },
+    {
+        "enrollment": "92100103230",
+        "firstName": "Michael",
+        "lastName": "Smith",
+        "email": "michael.smith@example.com",
+        "password": "michael789",
+        "oneMark": 0,
+        "mobile": "9998887777",
+        "stream": "B.tech Mechanical Engineering",
+        "GRno": "114530",
+        "status": "NaN"
+      },
+      {
+        "enrollment": "92100103231",
+        "firstName": "Emma",
+        "lastName": "Johnson",
+        "email": "emma.johnson@example.com",
+        "password": "emma2023",
+        "oneMark": 30,
+        "mobile": "1234567890",
+        "stream": "B.tech Computer Engineering",
+        "GRno": "114531",
+        "status": "Attended"
+      },
+      {
+        "enrollment": "92100103232",
+        "firstName": "William",
+        "lastName": "Davis",
+        "email": "william.davis@example.com",
+        "password": "william321",
+        "oneMark": 0,
+        "mobile": "7777777777",
+        "stream": "B.tech Civil Engineering",
+        "GRno": "114532",
+        "status": "NaN"
+      },
+      {
+        "enrollment": "92100103234",
+        "firstName": "Liam",
+        "lastName": "Wilson",
+        "email": "liam.wilson@example.com",
+        "password": "liam123",
+        "oneMark": 15,
+        "mobile": "5554443333",
+        "stream": "B.tech Electrical Engineering",
+        "GRno": "114534",
+        "status": "Attended"
+      },
+      {
+        "enrollment": "92100103235",
+        "firstName": "Ava",
+        "lastName": "Martinez",
+        "email": "ava.martinez@example.com",
+        "password": "ava456",
+        "oneMark":8,
+        "mobile": "9999999999",
+        "stream": "B.tech Chemical Engineering",
+        "GRno": "114535",
+        "status": "Attended"
+      },
+      {
+        "enrollment": "92100103236",
+        "firstName": "Noah",
+        "lastName": "Garcia",
+        "email": "noah.garcia@example.com",
+        "password": "noah789",
+        "oneMark": 16,
+        "mobile": "8888888888",
+        "stream": "B.tech Biomedical Engineering",
+        "GRno": "114536",
+        "status": "Attended"
+      },
+      {
+        "enrollment": "92100103237",
+        "firstName": "Mia",
+        "lastName": "Brown",
+        "email": "mia.brown@example.com",
+        "password": "mia1234",
+        "oneMark": 25,
+        "mobile": "1111222233",
+        "stream": "B.tech Aerospace Engineering",
+        "GRno": "114537",
+        "status": "Attended"
+      },
+      {
+        "enrollment": "92100103238",
+        "firstName": "Oliver",
+        "lastName": "Davis",
+        "email": "oliver.davis@example.com",
+        "password": "oliver567",
+        "oneMark": 0,
+        "mobile": "7777666555",
+        "stream": "B.tech Mechanical Engineering",
+        "GRno": "114538",
+        "status": "NaN"
+      },
+      {
+        "enrollment": "92100103239",
+        "firstName": "Charlotte",
+        "lastName": "Wilson",
+        "email": "charlotte@example.com",
+        "password": "charlotte321",
+        "oneMark": 2,
+        "mobile": "1234876655",
+        "stream": "B.tech Computer Engineering",
+        "GRno": "114539",
+        "status": "Attended"
+      }
+  ]
+  

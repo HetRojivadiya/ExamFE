@@ -1,0 +1,27 @@
+/* Exam.css */
+.question-container {
+    background: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  .question {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .option {
+    font-size: 16px;
+    margin-left: 20px;
+  }
+  
+  .answer {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #007bff; /* Blue color for correct answers */
+  }
+  
