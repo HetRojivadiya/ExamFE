@@ -24,9 +24,11 @@ export default function Quiz({questions,setStartButton}) {
   useEffect(() => {
     if (seconds > 0) {
       const timer = setInterval(() => {
-        setSeconds((prevSeconds) => prevSeconds - 1);
-      }, totalSeconds);
+        setSeconds(prevSeconds => prevSeconds - 1);
+      }, 1000); // Correct interval duration to 1 second
       return () => clearInterval(timer);
+    } else {
+      submitTest(); // Automatically submit the test when time is up
     }
   }, [seconds]);
   const minutes = Math.floor(seconds / 60);

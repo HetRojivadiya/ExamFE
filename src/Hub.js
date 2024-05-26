@@ -1,47 +1,49 @@
 import React from 'react';
-import { Route, Routes, HashRouter, Navigate  } from 'react-router-dom';
+import { Route, Routes, HashRouter, Navigate } from 'react-router-dom';
 import App from './App';
-import Quiz from './quizComponents/Quiz'
-import Login from './Login'
-import { useState,useEffect } from 'react';
+import Quiz from './quizComponents/Quiz';
+import Login from './Login';
+import { useState, useEffect } from 'react';
 import Dashboard from './AdminComponents/dashboard';
 
 const Hub = () => {
-  const [start,setStartButton] = useState(false);
-  const [color,setColor] = useState(true);
-  const [questions, setQuestions] = useState([]); 
-  const [studentData, setStudentData] = useState(null); 
+  const [start, setStartButton] = useState(false);
+  const [color, setColor] = useState(true);
+  const [questions, setQuestions] = useState([]);
+  const [studentData, setStudentData] = useState(null);
 
   useEffect(() => {
     const fetchQuestions = async () => {
       try {
-        // Fetch all questions
         const response = await fetch("http://localhost:3001/fetchQuestions");
         if (!response.ok) {
           throw new Error("Network response was not ok");
         }
         const allQuestions = await response.json();
-  
+
         // Filter questions by difficulty
         const easyQuestions = allQuestions.filter((question) => question.type === "easy");
         const mediumQuestions = allQuestions.filter((question) => question.type === "medium");
         const hardQuestions = allQuestions.filter((question) => question.type === "hard");
-  
-        // Generate random sets of questions
-        const selectedQuestions = [];
-        selectedQuestions.push(...getRandomQuestions(easyQuestions, 15));
-        selectedQuestions.push(...getRandomQuestions(mediumQuestions, 10));
-        selectedQuestions.push(...getRandomQuestions(hardQuestions, 5));
-  
-        // Shuffle the selected questions to randomize the order
-        const shuffledQuestions = shuffleArray(selectedQuestions);
-  
-        setQuestions(shuffledQuestions);
+
+        if (studentData) {
+          // Determine ratios based on student's previous performance
+          const ratios = getQuestionRatios(studentData.oneMark);
+          const selectedQuestions = [];
+          selectedQuestions.push(...getRandomQuestions(easyQuestions, ratios.easy));
+          selectedQuestions.push(...getRandomQuestions(mediumQuestions, ratios.medium));
+          selectedQuestions.push(...getRandomQuestions(hardQuestions, ratios.hard));
+
+          // Shuffle the selected questions to randomize the order
+          const shuffledQuestions = shuffleArray(selectedQuestions);
+
+          setQuestions(shuffledQuestions);
+        }
       } catch (error) {
         console.error("Error:", error);
       }
     };
-  
+
     const getRandomQuestions = (questions, count) => {
       const selectedQuestions = [];
       while (selectedQuestions.length < count && questions.length > 0) {
@@ -51,7 +53,7 @@ const Hub = () => {
       }
       return selectedQuestions;
     };
-  
+
     const shuffleArray = (array) => {
       const shuffledArray = [...array];
       for (let i = shuffledArray.length - 1; i > 0; i--) {
@@ -60,21 +62,31 @@ const Hub = () => {
       }
       return shuffledArray;
     };
-  
-    fetchQuestions();
-  
+
+    const getQuestionRatios = (oneMark) => {
+      if (oneMark >= 25) {
+        // Clever student
+        return { easy: 10, medium: 10, hard: 10 };
+      } else if (oneMark >= 15) {
+        // Medium student
+        return { easy: 15, medium: 10, hard: 5 };
+      } else {
+        // Struggling student
+        return { easy: 20, medium: 8, hard: 2 };
+      }
+    };
+
     const token = localStorage.getItem('token');
     if (token !== null) {
       getStudent(token);
     }
-  }, []);
+  }, [studentData]);
 
-  const getStudent = async(token) => {
-
+  const getStudent = async (token) => {
     await fetch(`http://localhost:3001/getStudent`, {
       method: 'GET',
       headers: {
-        'Authorization': `${token}`, 
+        'Authorization': `${token}`,
       },
     })
       .then((response) => {
@@ -89,20 +101,16 @@ const Hub = () => {
       .catch((error) => {
         console.error("Error:", error);
       });
-
   };
 
-
-
-  
   return (
     <HashRouter>
       <div>
         <Routes>
-          <Route path="/" element={<Login setStudentData={setStudentData}/>} />
-          <Route path="/dashboard/*" element={<Dashboard/>} />
-          <Route path="/app" element={!start ? (<App setStartButton={setStartButton} setColor={setColor} color={color} studentData={studentData}/>):(<Navigate to="/quiz"/>)} />
-          <Route path="/quiz" element={start ? (<Quiz questions={questions} setStartButton={setStartButton}/>):(<Navigate to="/app"/>)} />
+          <Route path="/" element={<Login setStudentData={setStudentData} />} />
+          <Route path="/dashboard/*" element={<Dashboard />} />
+          <Route path="/app" element={!start ? (<App setStartButton={setStartButton} setColor={setColor} color={color} studentData={studentData} />) : (<Navigate to="/quiz" />)} />
+          <Route path="/quiz" element={start ? (<Quiz questions={questions} setStartButton={setStartButton} />) : (<Navigate to="/app" />)} />
         </Routes>
       </div>
     </HashRouter>

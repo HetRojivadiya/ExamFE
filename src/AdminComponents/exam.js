@@ -9,7 +9,7 @@ function Exam() {
     fetch('http://localhost:3001/getQuestions')
       .then((response) => response.json())
       .then((data) =>{
-        console.log(data); // Add this line for debugging
+        console.log(data); // Add thi s line for debugging
         setQuestions(data.que);
       })
       .catch((error) => console.error('Error fetching questions:', error));

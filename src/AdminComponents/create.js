@@ -6,7 +6,7 @@
     const [newQuestion, setNewQuestion] = useState('');
     const [newOptions, setNewOptions] = useState(['', '', '', '']);
     const [newCorrectAnswer, setNewCorrectAnswer] = useState('');
-    const [newType, setNewType] = useState('easy'); // Default type is 'easy'
+    const [newType, setNewType] = useState('easy'); 
     const [pastedData, setPastedData] = useState('');
 
     const handleAddQuestion = () => {
@@ -66,12 +66,12 @@
         } else if (trimmedLine.startsWith('type')) {
           currentType = trimmedLine.split('=')[1].trim();
         } else if (trimmedLine) {
-          // If a non-empty line is encountered, treat it as part of the current question
+      
           if (!currentQuestion) {
-            // Start a new question
+            
             currentQuestion = trimmedLine;
           } else {
-            // Add the line as part of the question
+            
             currentQuestion += '\n' + trimmedLine;
           }
         } else {
