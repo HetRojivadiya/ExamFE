@@ -69,7 +69,7 @@ export default function Quiz({questions,setStartButton}) {
     }
   };
 
-  const submitTest = async() => {
+  const submitTest = async () => {
     let updatedResult = 0;
     for (let i = 0; i < 30; i++) {
       if (questions[i].answer === selectedOptions[i]) {
@@ -77,29 +77,48 @@ export default function Quiz({questions,setStartButton}) {
       }
     }
   
-    const token = localStorage.getItem('token');
+    const token = localStorage.getItem("token");
     try {
-      const response = await fetch('https://examnodejs.onrender.com/submit', {
-        method: 'POST',
+      const response = await fetch("https://examnodejs.onrender.com/submit", {
+        method: "POST",
         headers: {
-          'Content-Type': 'application/json',
-          'Authorization': `${token}`, 
+          "Content-Type": "application/json",
+          Authorization: `${token}`,
         },
-        body: JSON.stringify({updatedResult}),
+        body: JSON.stringify({ updatedResult }),
       });
-
+  
       if (response.ok) {
+        // Call the API to turn off face monitoring
+        await turnOffFaceMonitoring();
+  
         setStartButton(false);
-        nav("/app")
-       } else {
-        console.error('Failed to submit');
+        nav("/app");
+      } else {
+        console.error("Failed to submit");
       }
+    } catch (err) {
+      console.error("Error during submit:", err);
     }
-    catch (err) {
-      console.error('Error during submit:', err);
-    }
-
   };
+  
+  // Function to turn off face monitoring
+  const turnOffFaceMonitoring = async () => {
+    try {
+      const response = await fetch("http://127.0.0.1:5000/turnOfFM", {
+        method: "GET",
+      });
+  
+      if (!response.ok) {
+        throw new Error("Failed to turn off face monitoring");
+      }
+  
+      console.log("Face monitoring turned off");
+    } catch (error) {
+      console.error("Error turning off face monitoring:", error);
+    }
+  };
+  
 
   const enterFullScreen = () => {
     const element = document.documentElement;
