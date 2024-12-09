@@ -20,7 +20,7 @@ function App({ setStartButton, setColor, color ,studentData}) {
       nav('/');
     }else{
 
-      fetch(`http://localhost:3001/checkStatus`, {
+      fetch(`https://examnodejs.onrender.com/checkStatus`, {
             method: 'GET',
             headers: {
               'Authorization': `${token}`, 
@@ -74,7 +74,7 @@ function App({ setStartButton, setColor, color ,studentData}) {
     
       const token = localStorage.getItem('token');
       try {
-      const response = await fetch('http://localhost:3001/submit', {
+      const response = await fetch('https://examnodejs.onrender.com/submit', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

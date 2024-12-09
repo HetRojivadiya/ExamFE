@@ -108,7 +108,7 @@
 
     const submitExam = async () => {
       try {
-        const response = await fetch('http://localhost:3001/createExam', {
+        const response = await fetch('https://examnodejs.onrender.com/createExam', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',

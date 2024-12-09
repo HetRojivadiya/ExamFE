@@ -15,7 +15,7 @@ const Hub = () => {
   useEffect(() => {
     const fetchQuestions = async () => {
       try {
-        const response = await fetch("http://localhost:3001/fetchQuestions");
+        const response = await fetch("https://examnodejs.onrender.com/fetchQuestions");
         if (!response.ok) {
           throw new Error("Network response was not ok");
         }
@@ -83,7 +83,7 @@ const Hub = () => {
   }, [studentData]);
 
   const getStudent = async (token) => {
-    await fetch(`http://localhost:3001/getStudent`, {
+    await fetch(`https://examnodejs.onrender.com/getStudent`, {
       method: 'GET',
       headers: {
         'Authorization': `${token}`,

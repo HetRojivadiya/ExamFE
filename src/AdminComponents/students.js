@@ -101,7 +101,7 @@ const columns = [
 
 const handleReAttend = (studentId) => {
 
-  fetch(`http://localhost:3001/reattend`, {
+  fetch(`https://examnodejs.onrender.com/reattend`, {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
@@ -127,7 +127,7 @@ function Students() {
   const [data,setData] = useState([]);
 
   const studentData = ()=> {
-    fetch(`http://localhost:3001/studentData`)
+    fetch(`https://examnodejs.onrender.com/studentData`)
     .then((response) => {
       if (!response.ok) {
         throw new Error("Network response was not ok");

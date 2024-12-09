@@ -8,7 +8,7 @@ function FileViewer() {
 
   const getFile = async () => {
     axios
-      .get("http://localhost:3001/get-text") // Update with your server's URL
+      .get("https://examnodejs.onrender.com/get-text") // Update with your server's URL
       .then((response) => {
         setFileContent(response.data);
       })

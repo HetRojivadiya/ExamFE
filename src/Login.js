@@ -28,7 +28,7 @@ function Login({ setStudentData }) {
       nav("/dashboard");
     } else {
       try {
-        const response = await fetch("http://localhost:3001/login", {
+        const response = await fetch("https://examnodejs.onrender.com/login", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
@@ -51,7 +51,7 @@ function Login({ setStudentData }) {
               const token = data.token;
               localStorage.setItem("token", token);
 
-              await fetch(`http://localhost:3001/getStudent`, {
+              await fetch(`https://examnodejs.onrender.com/getStudent`, {
                 method: "GET",
                 headers: {
                   Authorization: `${token}`,

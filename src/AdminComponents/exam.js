@@ -6,7 +6,7 @@ function Exam() {
 
   useEffect(() => {
     // Fetch questions from your API endpoint
-    fetch('http://localhost:3001/getQuestions')
+    fetch('https://examnodejs.onrender.com/getQuestions')
       .then((response) => response.json())
       .then((data) =>{
         console.log(data); // Add thi s line for debugging

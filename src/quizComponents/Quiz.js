@@ -79,7 +79,7 @@ export default function Quiz({questions,setStartButton}) {
   
     const token = localStorage.getItem('token');
     try {
-      const response = await fetch('http://localhost:3001/submit', {
+      const response = await fetch('https://examnodejs.onrender.com/submit', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -127,7 +127,7 @@ export default function Quiz({questions,setStartButton}) {
   };
 
   const updateFile = () => {
-    fetch(`http://localhost:3001/updateFile`)
+    fetch(`https://examnodejs.onrender.com/updateFile`)
       .then((response) => {
         if (!response.ok) {
           throw new Error("Network response was not ok");
@@ -195,7 +195,7 @@ export default function Quiz({questions,setStartButton}) {
   
       fetchData();
       
-        // fetch(`http://localhost:3001/readFile`)
+        // fetch(`https://examnodejs.onrender.com/readFile`)
         //   .then((response) => {
         //     if (!response.ok) {
         //       throw new Error("Network response was not ok");
